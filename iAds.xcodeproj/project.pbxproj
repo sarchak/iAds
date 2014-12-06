@@ -13,6 +13,11 @@
 		560EFBB11A33888900E3E338 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 560EFBB01A33888900E3E338 /* Images.xcassets */; };
 		560EFBB41A33888900E3E338 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 560EFBB21A33888900E3E338 /* LaunchScreen.xib */; };
 		560EFBC01A33888900E3E338 /* iAdsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560EFBBF1A33888900E3E338 /* iAdsTests.swift */; };
+		560EFBCA1A3396FF00E3E338 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560EFBC91A3396FF00E3E338 /* iAd.framework */; };
+		560EFBCC1A3399DB00E3E338 /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560EFBCB1A3399DB00E3E338 /* BannerViewController.swift */; };
+		560EFBD01A339A0500E3E338 /* InterstitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560EFBCF1A339A0500E3E338 /* InterstitialViewController.swift */; };
+		560EFBD21A339A1600E3E338 /* MediumRectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560EFBD11A339A1600E3E338 /* MediumRectViewController.swift */; };
+		560EFBD41A339A3000E3E338 /* PreRollVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560EFBD31A339A3000E3E338 /* PreRollVideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		560EFBB91A33888900E3E338 /* iAdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iAdsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		560EFBBE1A33888900E3E338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		560EFBBF1A33888900E3E338 /* iAdsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iAdsTests.swift; sourceTree = "<group>"; };
+		560EFBC91A3396FF00E3E338 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		560EFBCB1A3399DB00E3E338 /* BannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		560EFBCF1A339A0500E3E338 /* InterstitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterstitialViewController.swift; sourceTree = "<group>"; };
+		560EFBD11A339A1600E3E338 /* MediumRectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumRectViewController.swift; sourceTree = "<group>"; };
+		560EFBD31A339A3000E3E338 /* PreRollVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreRollVideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560EFBCA1A3396FF00E3E338 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +70,7 @@
 		560EFB9B1A33888900E3E338 = {
 			isa = PBXGroup;
 			children = (
+				560EFBC91A3396FF00E3E338 /* iAd.framework */,
 				560EFBA61A33888900E3E338 /* iAds */,
 				560EFBBC1A33888900E3E338 /* iAdsTests */,
 				560EFBA51A33888900E3E338 /* Products */,
@@ -83,6 +95,10 @@
 				560EFBB01A33888900E3E338 /* Images.xcassets */,
 				560EFBB21A33888900E3E338 /* LaunchScreen.xib */,
 				560EFBA71A33888900E3E338 /* Supporting Files */,
+				560EFBCB1A3399DB00E3E338 /* BannerViewController.swift */,
+				560EFBCF1A339A0500E3E338 /* InterstitialViewController.swift */,
+				560EFBD11A339A1600E3E338 /* MediumRectViewController.swift */,
+				560EFBD31A339A3000E3E338 /* PreRollVideoViewController.swift */,
 			);
 			path = iAds;
 			sourceTree = "<group>";
@@ -212,6 +228,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560EFBD41A339A3000E3E338 /* PreRollVideoViewController.swift in Sources */,
+				560EFBD21A339A1600E3E338 /* MediumRectViewController.swift in Sources */,
+				560EFBD01A339A0500E3E338 /* InterstitialViewController.swift in Sources */,
+				560EFBCC1A3399DB00E3E338 /* BannerViewController.swift in Sources */,
 				560EFBAC1A33888900E3E338 /* ViewController.swift in Sources */,
 				560EFBAA1A33888900E3E338 /* AppDelegate.swift in Sources */,
 			);

@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import iAd
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.canDisplayBannerAds = true
     }
 
     override func didReceiveMemoryWarning() {
